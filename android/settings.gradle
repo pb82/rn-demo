@@ -1,0 +1,5 @@
+rootProject.name = 'FhReactNative'
+include ':react-native-fh-sdk'
+project(':react-native-fh-sdk').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-fh-sdk/android')
+
+include ':app', ':fh-rn-android-wrapper'
